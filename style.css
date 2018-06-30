@@ -1,0 +1,35 @@
+@charset "utf-8"
+
+body {
+  background: #eee;
+}
+#btn {
+  width: 200px;
+heigth: 200px;
+border-radius: 50%;
+background-color: red;
+margin: 30px auto;
+font-size: 40px;
+line-height: 200px;
+text-align: center;
+color: white;
+font-weight: bold;
+cursor: pointer;
+opacity: 0.9;
+box-shadow: 0 10px 0 green;
+border: 3px solid green;
+user-select: none;/*選択しているところが灰色にならない*/
+}
+#btn:hover {
+  opacity: 1;
+}
+#btn.pushed {
+  /*元のマージンが30pxで下に下がったように見せるためプラス6pxにして
+  box-shadowも10pxから4pxにする*/
+  margin-top:36px;
+  box-shadow: 0 4px 0 green;
+}
+
+#btn_1 {
+  
+}
